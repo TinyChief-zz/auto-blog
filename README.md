@@ -1,11 +1,11 @@
 ## Deploy blog articles.
 
-Automaticly uploads articles to `mongoDB` storage and uses webhook to tell `netlify` to deploy `test ` and `master` branches.
+Automaticly uploads articles to `mongoDB` storage and uses webhook to tell `netlify` to deploy `preview` and `master` branches.
 
 ## Usage
 
 ```
-git clone <> blog
+git clone https://github.com/TinyChief/auto-blog.git blog
 cd blog
 npm install
 ```
